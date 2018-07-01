@@ -4,7 +4,7 @@ class Clac < Formula
   url "https://github.com/soveran/clac/archive/0.3.2.tar.gz"
   sha256 "37a926982a3cc5016b42c554deaa5c64fa3932ebacd5bd15003508cf79a666dd"
 
-  head "https://github.com/jasonmhite/clac.git"
+  head "https://github.com/jasonmhite/clac.git", :branch => "moar_math"
 
   bottle do
     cellar :any_skip_relocation
